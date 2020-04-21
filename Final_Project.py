@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 import json
 import requests
 import pandas as pd
@@ -58,17 +55,6 @@ for i in range(0, 100):
     recipe_url = recipe['hits'][r]['recipe']['url']
     #Print statement
     print(dish_name, "\n Calories:", dish_calories, "\n URL:", recipe_url, '\n')
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
 
 
 
