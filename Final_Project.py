@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
-
+# NOTES:
+#	Display graph comparisons of daily nutrients, nutrients per serving, and nutrients in the entire dish
+# 	
+# 
+# 
 import json
 import requests
 import pandas as pd
